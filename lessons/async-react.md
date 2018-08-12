@@ -222,3 +222,7 @@ export default Carousel;
 
 * This is how you handle events in React. If it was keyboard handler, you'd do an onChange or onKeyUp, etc. handler.
 * Notice that the handleIndexClick function is an arrow function. This is because we need the `this` in `handleIndexClick` to be the correct `this`. An arrow function assures that because it will be the scope of where it was defined.
+* The data attribute comes back as a string. We want it to be a number, hence the `+`.
+* We're doing bad accessibility stuff. But this makes it a lot simpler for now. But don't do this in production.
+
+## 🌳 6e205da64719f8f7eba8ec5f9999c6090ad170c7
