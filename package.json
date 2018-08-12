@@ -30,6 +30,7 @@
     "prettier": "^1.14.2"
   },
   "dependencies": {
+    "petfinder-client": "0.0.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
