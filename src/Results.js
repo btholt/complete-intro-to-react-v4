@@ -38,7 +38,7 @@ class Results extends React.Component {
   render() {
     return (
       <div className="search">
-        <SearchBox />
+        <SearchBox {...this.props} />
         {this.state.pets.map(pet => {
           let breed;
           if (Array.isArray(pet.breeds.breed)) {

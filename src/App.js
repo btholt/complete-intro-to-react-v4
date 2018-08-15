@@ -5,7 +5,6 @@ import pf from "petfinder-client";
 import Results from "./Results";
 import Details from "./Details";
 import SearchParams from "./SearchParams";
-import { Provider } from "./SearchContext";
 
 const petfinder = pf({
   key: process.env.API_KEY,
@@ -17,19 +16,15 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      location: "Seattle, WA",
+      cityState: "Seattle, WA",
       animal: "",
       breed: "",
-      breeds: [],
-      handleAnimalChange: this.handleAnimalChange,
-      handleBreedChange: this.handleBreedChange,
-      handleLocationChange: this.handleLocationChange,
-      getBreeds: this.getBreeds
+      breeds: []
     };
   }
-  handleLocationChange = event => {
+  handleCityStateChange = event => {
     this.setState({
-      location: event.target.value
+      cityState: event.target.value
     });
   };
   handleAnimalChange = event => {
@@ -75,13 +70,25 @@ class App extends React.Component {
         <header>
           <Link to="/">Adopt Me!</Link>
         </header>
-        <Provider value={this.state}>
-          <Router>
-            <Results path="/" />
-            <Details path="/details/:id" />
-            <SearchParams path="/search-params" />
-          </Router>
-        </Provider>
+        <Router>
+          <Results
+            path="/"
+            handleBreedChange={this.handleBreedChange}
+            handleAnimalChange={this.handleAnimalChange}
+            handleCityStateChange={this.handleCityStateChange}
+            getBreeds={this.getBreeds}
+            {...this.state}
+          />
+          <Details path="/details/:id" />
+          <SearchParams
+            path="/search-params"
+            handleBreedChange={this.handleBreedChange}
+            handleAnimalChange={this.handleAnimalChange}
+            handleCityStateChange={this.handleCityStateChange}
+            getBreeds={this.getBreeds}
+            {...this.state}
+          />
+        </Router>
       </div>
     );
   }
