@@ -50,7 +50,7 @@ class Search extends React.Component {
                 ))}
               </select>
             </label>
-            <button>Submit</button>
+            <button onClick={this.props.search}>Submit</button>
           </div>
         )}
       </Consumer>
