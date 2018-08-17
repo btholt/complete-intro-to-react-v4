@@ -216,4 +216,95 @@ Here's the commit with context (which we'll keep working with):
 
 ## With Context: 🌳 353236667302df23f2d10b037072bc428addce90
 
+Now let's go make the Results read from the Consumer as well.
+
+```javascript
+// at the top
+import { Consumer } from "./SearchContext";
+
+// replace componentDidMount
+componentDidMount() {
+  this.search();
+}
+search = () => {
+  petfinder.pet
+    .find({
+      location: this.props.searchParams.location,
+      animal: this.props.searchParams.animal,
+      breed: this.props.searchParams.breed,
+      output: "full"
+    })
+    .then(data => {
+      let pets;
+      if (data.petfinder.pets && data.petfinder.pets.pet) {
+        if (Array.isArray(data.petfinder.pets.pet)) {
+          pets = data.petfinder.pets.pet;
+        } else {
+          pets = [data.petfinder.pets.pet];
+        }
+      } else {
+        pets = [];
+      }
+      this.setState({
+        pets: pets
+      });
+    });
+};
+
+// add prop to SearchBox
+<SearchBox search={this.search} />
+
+// add consumer to export
+export default function ResultsWithContext(props) {
+  return (
+    <Consumer>
+      {context => <Results {...props} searchParams={context} />}
+    </Consumer>
+  );
+}
+```
+
+That's it! Let's look at what we did
+
+* We now need to search more frequently just on load. So with that we move search to a function and just call that on componentDidMount
+* We'll pass that search function as a callback to SearchBox so we can call it from within SearchBox
+* We need to access context within our life cycle method, so that means we'll just wrap Results itself with a context consumer and then pass that context into Results as a prop!
+
+Let's go add search into SearchBox.
+
+```javascript
+<button onClick={this.props.search}>Submit</button>
+```
+
+That's it! Now your Results page should work! Let's go make the other page work too. First, let's add a link to the header to SearchParams. Add this to App.js
+
+```javascript
+// beneath the other Link
+<Link to="/search-params">
+  <span aria-label="search" role="img">
+    🔍
+  </span>
+</Link>
+```
+
+Next let's go SearchParams and make the last bit work.
+
+```javascript
+// import
+import { navigate } from "@reach/router";
+
+// above render, inside Search
+search() {
+  navigate("/");
+}
+
+// add prop
+<SearchBox search={this.search} />
+```
+
+* Now the SearchParams works too, reading data from one route and using it in another. Again, this is overkill and not necessarily a good use of context, but it's good illustrate how it would work.
+* We use navigate from Reach Router. This lets us programmatically redirect to the Results page.
+
+## 🌳 d77d22f761b69a3955fe04977b3147fabb562a92
+
 [pr]: https://github.com/btholt/complete-intro-to-react-v4/pull/1
