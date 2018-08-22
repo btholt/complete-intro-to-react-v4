@@ -4,10 +4,18 @@
   "description": "An app to teach you to write React",
   "main": "src/App.js",
   "scripts": {
-    "test": "",
+    "test": "jest --silent",
+    "test:coverage": "jest --coverage",
+    "test:update": "jest -u",
+    "test:watch": "jest --watch",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!petfinder-client).+"
+    ]
   },
   "repository": {
     "type": "git",
@@ -23,6 +31,7 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "eslint": "^5.3.0",
@@ -30,6 +39,7 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.5.0",
     "parcel-bundler": "^1.11.0",
     "prettier": "^1.14.2"
   },
@@ -37,6 +47,7 @@
     "@reach/router": "^1.2.1",
     "petfinder-client": "^1.0.2",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-test-renderer": "^16.4.2"
   }
 }
