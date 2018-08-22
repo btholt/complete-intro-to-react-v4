@@ -1,7 +1,7 @@
 ---
 path: "/intro"
 title: "Introduction"
-order: 0
+order: 1
 ---
 
 Welcome to the complete introduction web development v4. This is the fourth revision of this course and the most comprehensive one yet. While the previous three courses were all modifications of the same app, this one is brand new, re-written from the ground up. The previous versions of this coruse all have value and if one of them touches on a piece of technology that you want to use, you should definitely check that out (particularly v3.)

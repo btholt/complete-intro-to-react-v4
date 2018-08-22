@@ -1,7 +1,7 @@
 ---
 path: "/pure-react"
 title: "Pure React"
-order: 1
+order: 2
 ---
 
 Let's start by writing pure React. No compile step. No JSX. No Babel. No Webpack or Parcel. Just some JavaScript on a page.

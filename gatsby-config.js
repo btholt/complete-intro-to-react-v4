@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Complete Intro to React v4`
   },
-  pathPrefix: "/complete-intro-to-react",
+  pathPrefix: "/complete-intro-to-react-v4",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

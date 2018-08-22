@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "gatsby-link";
-import RandomTweet from "../components/RandomTweet";
 
 export default function Template({ data }) {
-  const { markdownRemark, allMarkdownRemark } = data; // data.markdownRemark holds our post data
+  let { markdownRemark, allMarkdownRemark } = data; // data.markdownRemark holds our post data
+
   const { frontmatter, html } = markdownRemark;
-  console.log(frontmatter.order, allMarkdownRemark);
   const prevLink =
     frontmatter.order > 0 ? (
       <Link
@@ -43,7 +42,6 @@ export default function Template({ data }) {
           {prevLink}
           {nextLink}
         </div>
-        {/* <RandomTweet /> */}
       </div>
     </div>
   );
