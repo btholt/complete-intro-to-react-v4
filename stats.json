@@ -1,0 +1,124 @@
+{
+  "assetsByChunkName": {
+    "path---testing": [
+      "path---testing-51785c23e74809a56bcb.js",
+      "path---testing-51785c23e74809a56bcb.js.map"
+    ],
+    "path---eslint-prettier": [
+      "path---eslint-prettier-540e5246cb56f80bc68c.js",
+      "path---eslint-prettier-540e5246cb56f80bc68c.js.map"
+    ],
+    "path---emotion": [
+      "path---emotion-efbe64667ab08f1dd3cf.js",
+      "path---emotion-efbe64667ab08f1dd3cf.js.map"
+    ],
+    "path---react-state-and-lifecycles": [
+      "path---react-state-and-lifecycles-180b0ea4534697e66ff8.js",
+      "path---react-state-and-lifecycles-180b0ea4534697e66ff8.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-b94181b0aee4308c928e.js",
+      "component---src-pages-index-js-b94181b0aee4308c928e.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---context": [
+      "path---context-36093fabde99bc97f8e8.js",
+      "path---context-36093fabde99bc97f8e8.js.map"
+    ],
+    "path---code-splitting": [
+      "path---code-splitting-30fba153c5e2c07cf8e1.js",
+      "path---code-splitting-30fba153c5e2c07cf8e1.js.map"
+    ],
+    "path---pure-react": [
+      "path---pure-react-d349ed235f791c228b20.js",
+      "path---pure-react-d349ed235f791c228b20.js.map"
+    ],
+    "path---code-organization": [
+      "path---code-organization-1cf32756f157c3346398.js",
+      "path---code-organization-1cf32756f157c3346398.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-125b8f40264dd388019c.js",
+      "component---src-layouts-index-js-125b8f40264dd388019c.js.map"
+    ],
+    "path---parcel": [
+      "path---parcel-a7c461ee8f0c10693d44.js",
+      "path---parcel-a7c461ee8f0c10693d44.js.map"
+    ],
+    "path---jsx": [
+      "path---jsx-677921b4b07705ae3936.js",
+      "path---jsx-677921b4b07705ae3936.js.map"
+    ],
+    "path---index": [
+      "path---index-96fe714b761a5d37d7e0.js",
+      "path---index-96fe714b761a5d37d7e0.js.map"
+    ],
+    "path---conclusion": [
+      "path---conclusion-137375b70e30e1d25f41.js",
+      "path---conclusion-137375b70e30e1d25f41.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-4f76bc7b17eb7ba41005.js",
+      "build-js-styles.css",
+      "commons-4f76bc7b17eb7ba41005.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-lesson-template-js": [
+      "component---src-templates-lesson-template-js-75375d9b654b71624895.js",
+      "component---src-templates-lesson-template-js-75375d9b654b71624895.js.map"
+    ],
+    "path---preact": [
+      "path---preact-eca252f2a4340489a37e.js",
+      "path---preact-eca252f2a4340489a37e.js.map"
+    ],
+    "app": [
+      "app-f7672af318533cdab4d7.js",
+      "build-js-styles.css",
+      "app-f7672af318533cdab4d7.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---portals": [
+      "path---portals-4484af8cdde133253254.js",
+      "path---portals-4484af8cdde133253254.js.map"
+    ],
+    "path---reach-router": [
+      "path---reach-router-3f108d9aef437d65330d.js",
+      "path---reach-router-3f108d9aef437d65330d.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---async-and-events-in-react": [
+      "path---async-and-events-in-react-d989bb0f3ac6d47e784b.js",
+      "path---async-and-events-in-react-d989bb0f3ac6d47e784b.js.map"
+    ],
+    "path---intro": [
+      "path---intro-bd2eccd19ff370ed2f44.js",
+      "path---intro-bd2eccd19ff370ed2f44.js.map"
+    ],
+    "path---server-side-rendering": [
+      "path---server-side-rendering-1991d71c4887e90b9800.js",
+      "path---server-side-rendering-1991d71c4887e90b9800.js.map"
+    ],
+    "path---redux": [
+      "path---redux-44074fc94f696c9d94a2.js",
+      "path---redux-44074fc94f696c9d94a2.js.map"
+    ],
+    "path---forms": [
+      "path---forms-3cbc75f9ecfeb7028f18.js",
+      "path---forms-3cbc75f9ecfeb7028f18.js.map"
+    ]
+  }
+}
