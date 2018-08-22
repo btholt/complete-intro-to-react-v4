@@ -1,8 +1,8 @@
 {
-  "name": "intro-to-web-dev-v2",
-  "description": "Intro to Web Dev v2",
+  "name": "complete-intro-to-react-v4",
+  "description": "Complete Intro to React v4",
   "version": "1.0.0",
-  "author": "Brian Holt <btholt+intro.web.dev@gmail.com>",
+  "author": "Brian Holt <btholt+intro.react.v4@gmail.com>",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3",
@@ -19,16 +19,15 @@
     "react-twitter-widgets": "^1.7.1",
     "shuffle-array": "^1.0.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "CC-BY-NC-4.0",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "deploy": "npm -s run build && gh-pages -d ./public -b gh-pages",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },
   "devDependencies": {
     "eslint": "^4.14.0",
@@ -39,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btholt/intro-to-web-dev-v2.git"
+    "url": "git@github.com:btholt/complete-intro-to-react-v4.git"
   },
   "bugs": {
-    "url": "https://github.com/btholt/intro-to-web-dev-v2/issues"
+    "url": "https://github.com/btholt/complete-intro-to-react-v4/issues"
   },
-  "homepage": "https://github.com/btholt/intro-to-web-dev-v2#readme"
+  "homepage": "https://github.com/btholt/complete-intro-to-react-v4#readme"
 }
