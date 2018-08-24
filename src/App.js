@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Router, Link } from "@reach/router";
+import React from "preact-compat";
+import ReactDOM from "preact-compat";
+import { Router, Link } from "preact-router";
 import pf from "petfinder-client";
 import Results from "./Results";
 import Details from "./Details";
@@ -73,8 +73,8 @@ class App extends React.Component {
     return (
       <div>
         <header>
-          <Link to="/">Adopt Me!</Link>
-          <Link to="/search-params">
+          <Link href="/">Adopt Me!</Link>
+          <Link href="/search-params">
             <span aria-label="search" role="img">
               🔍
             </span>

@@ -1,10 +1,10 @@
-import React from "react";
-import { navigate } from "@reach/router";
+import React from "preact-compat";
+import { route } from "preact-router";
 import SearchBox from "./SearchBox";
 
 class Search extends React.Component {
   search() {
-    navigate("/");
+    route("/");
   }
   render() {
     return (
