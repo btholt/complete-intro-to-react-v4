@@ -7,7 +7,9 @@
     "test": "",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build --public-url ./dist/ src/index.html",
+    "start": "npm -s run build && babel-node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +37,8 @@
   },
   "dependencies": {
     "@reach/router": "^1.1.1",
+    "babel-cli": "^6.26.0",
+    "express": "^4.16.3",
     "petfinder-client": "^0.0.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"

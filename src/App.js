@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Router, Link } from "@reach/router";
 import pf from "petfinder-client";
 import Results from "./Results";
@@ -92,4 +91,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
