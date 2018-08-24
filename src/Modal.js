@@ -1,6 +1,6 @@
 // taken from React docs
-import React from "react";
-import { createPortal } from "react-dom";
+import React from "preact-compat";
+import { createPortal } from "preact-compat";
 
 const modalRoot = document.getElementById("modal");
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact-compat";
 import pf from "petfinder-client";
 import Pet from "./Pet";
 import SearchBox from "./SearchBox";
