@@ -1,0 +1,76 @@
+Arguments: 
+  /Users/btholt/.nvm/versions/node/v9.3.0/bin/node /Users/btholt/.nvm/versions/node/v9.3.0/bin/yarn add @types/petfinder-client
+
+PATH: 
+  /Users/btholt/talks/v4-project/node_modules/.bin:/Users/btholt/talks/node_modules/.bin:/Users/btholt/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/btholt/.nvm/versions/node/v9.3.0/bin:/Users/btholt/.cargo/bin:/Users/btholt/bin:/Users/btholt/.nvm/versions/node/v9.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/btholt/.cargo/bin:/Users/btholt/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fpetfinder-client: Not found
+      at Request.params.callback [as _callback] (/Users/btholt/.nvm/versions/node/v9.3.0/lib/node_modules/yarn/lib/cli.js:65656:18)
+      at Request.self.callback (/Users/btholt/.nvm/versions/node/v9.3.0/lib/node_modules/yarn/lib/cli.js:134675:22)
+      at Request.emit (events.js:159:13)
+      at Request.<anonymous> (/Users/btholt/.nvm/versions/node/v9.3.0/lib/node_modules/yarn/lib/cli.js:135658:10)
+      at Request.emit (events.js:159:13)
+      at IncomingMessage.<anonymous> (/Users/btholt/.nvm/versions/node/v9.3.0/lib/node_modules/yarn/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:254:19)
+      at IncomingMessage.emit (events.js:164:20)
+      at endReadableNT (_stream_readable.js:1062:12)
+      at process._tickCallback (internal/process/next_tick.js:152:19)
+
+npm manifest: 
+  {
+    "name": "adopt-me",
+    "version": "1.0.0",
+    "description": "An app to teach you to write React",
+    "main": "src/App.js",
+    "scripts": {
+      "test": "",
+      "format": "prettier --write \"src/**/*.{js,jsx}\"",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "dev": "parcel src/index.html"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/btholt/complete-intro-to-react-v4.git"
+    },
+    "author": "Brian Holt <btholt@gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/btholt/complete-intro-to-react-v4/issues"
+    },
+    "homepage": "https://github.com/btholt/complete-intro-to-react-v4#readme",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-eslint": "^8.2.6",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-preset-env": "^1.7.0",
+      "eslint": "^5.3.0",
+      "eslint-config-prettier": "^2.9.0",
+      "eslint-plugin-import": "^2.13.0",
+      "eslint-plugin-jsx-a11y": "^6.1.1",
+      "eslint-plugin-react": "^7.10.0",
+      "prettier": "^1.14.2",
+      "typescript": "^3.0.1"
+    },
+    "dependencies": {
+      "@reach/router": "^1.1.1",
+      "petfinder-client": "0.0.1",
+      "react": "^16.4.2",
+      "react-dom": "^16.4.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

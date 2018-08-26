@@ -1,24 +1,40 @@
 import React from "react";
+import { PetMedia, PetPhoto } from "petfinder-client";
 
-class Carousel extends React.Component {
-  state = {
+interface Props {
+  media: PetMedia;
+}
+
+interface State {
+  active: number;
+  photos: PetPhoto[];
+}
+
+class Carousel extends React.Component<Props, State> {
+  public state: State = {
     photos: [],
     active: 0
   };
-  static getDerivedStateFromProps({ media }) {
-    let photos = [];
+  public static getDerivedStateFromProps({ media }: Props) {
+    let photos: PetPhoto[] = [];
     if (media && media.photos && media.photos.photo) {
       photos = media.photos.photo.filter(photo => photo["@size"] === "pn");
     }
 
     return { photos };
   }
-  handleIndexClick = event => {
-    this.setState({
-      active: +event.target.dataset.index
-    });
+  public handleIndexClick = (event: React.MouseEvent<HTMLElement>) => {
+    if (!(event.target instanceof HTMLElement)) {
+      return;
+    }
+
+    if (event.target.dataset.index) {
+      this.setState({
+        active: +event.target.dataset.index
+      });
+    }
   };
-  render() {
+  public render() {
     const { photos, active } = this.state;
 
     let hero = "http://placecorgi.com/300/300";
@@ -31,7 +47,6 @@ class Carousel extends React.Component {
         <img src={hero} alt="animal" />
         <div className="carousel-smaller">
           {photos.map((photo, index) => (
-            /* eslint-disable-next-line */
             <img
               onClick={this.handleIndexClick}
               data-index={index}

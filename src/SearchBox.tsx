@@ -2,12 +2,12 @@ import React from "react";
 import { ANIMALS } from "petfinder-client";
 import { Consumer } from "./SearchContext";
 
-class Search extends React.Component {
-  handleFormSubmit = event => {
-    event.preventDefault();
-    this.props.search();
-  };
-  render() {
+interface Props {
+  search: () => void;
+}
+
+class Search extends React.Component<Props> {
+  public render() {
     return (
       <Consumer>
         {context => (
