@@ -2,8 +2,12 @@ import React from "react";
 import { ANIMALS } from "petfinder-client";
 import { Consumer } from "./SearchContext";
 
-class Search extends React.Component {
-  render() {
+interface Props {
+  search: () => void;
+}
+
+class Search extends React.Component<Props> {
+  public render() {
     return (
       <Consumer>
         {context => (
