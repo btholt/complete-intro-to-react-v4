@@ -92,6 +92,6 @@ const {
 
 That's it! That's how you make a modal using a portal in React. This used to be significantly more difficult to do but with portals it became trivial. The nice thing about portals is that despite the actual elements being in different DOM trees, these are in the same React trees, so you can do event bubbling up from the modal. Some times this is useful if you want to make your Modal more flexible (like we did.)
 
-## 🌳 ec16c0de7ee55a7112f8f2d7d80b615fcffd66dd
+## 🌳 a249bb32e8cf2356ee6eeefc00d8fb44629a42bd
 
 [portal]: https://reactjs.org/docs/portals.html

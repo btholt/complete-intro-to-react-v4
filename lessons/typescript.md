@@ -341,7 +341,7 @@ Last thing, let's add a type check to our package.json just in case someone isn'
 
 Congrats! You finished TypeScript.
 
-## 🌳 b4a0e111bbd5d4a4bedd33e131051688a8986822 (branch typescript)
+## 🌳 206b5545a1d66c5940d900f346a8ccc90af1bfc4 (branch typescript)
 
 [mike]: https://frontendmasters.com/workshops/typescript/
 [dt]: https://www.definitelytyped.org

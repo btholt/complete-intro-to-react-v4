@@ -169,7 +169,7 @@ import { Router, Link } from "@reach/router";
 </header>;
 ```
 
-## 🌳 4d52f40244642af3ea075439b227c453375b3ff9
+## 🌳 da9e977a641140be8df08c898efd90dcdc509988
 
 Now if you click the header, it'll take you back to the Results page. Cool. Now let's round out the Details page.
 

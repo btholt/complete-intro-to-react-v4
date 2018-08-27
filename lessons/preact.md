@@ -28,7 +28,7 @@ As I said, this is a tool help you migrate. You should do this with the eye of g
 
 Our final app went from 42KB to 15KB (minified and gzipped) so it's pretty effective too!
 
-## 🌳 cf7c7a9d726bd8bde0ff94edc56f637d70c65076 (branch preact)
+## 🌳 eb1c1600f4fead461e2a3f2d6668ac4ee734fcf5 (branch preact)
 
 [preact]: https://preactjs.com/
 [jm]: https://twitter.com/_developit

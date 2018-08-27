@@ -33,6 +33,8 @@ test("snapshot", () => {
 
 Here we're doing a Jest test in which we're doing a snapshot test. As soon as you run this test the first time, it'll run and capture the output in a snapshot file (you'll see it after you run it successfully the first time.) Every time afterwards when you run it it will compare the output with this snapshot. If it changes, it'll fail the test. If you mean to change it, you just run `jest -u` and it will update the snapshots. Cool, right?
 
+Add that your package.json: `"test:update": "jest -u",`
+
 Let's go make it run first though. First we need to complete our Babel config. Jest doesn't know how to use Parcel's Babel config so we need to make ours complete. Update it to this:
 
 ```json
@@ -89,11 +91,22 @@ test("shows modal when toggleModal is called", () => {
 
 This creates an instance of your component and lets your run the functions on it. I don't show you this to show you a particularly good test: testing implementation details isn't necessarily a good idea, but wanted to show you how to get a handle on an instance.
 
+You'll notice that petfinder-client doesn't like being run in Node environments since it runs on jsonp. To make it shut up, just run `jest --silent`.
+
+Let's talk about code coverage. Luckily has it built into jest because it can be a bit of a pain to set up. It's a tool called [istanbul][istanbul]. Istanbul generates a report of how much of you code is covered by tests. It's a useful metric to track you're generally adding tests when you add new features but by no means does a 100% test-covered project means that those tests are good. It's easy to write garbage tests, and garbage tests hurt more than help.
+
+In any case, run `npx jest --coverage` to try it out. It'll show you an outline of the results in the CLI and then generate a report in a new `coverage` directory (don't check this in to git.) Open coverage/lcov-report/index.html to see a nice web page outlining your test coverage. Add this to your package.json:
+`"test:coverage": "jest --coverage",`.
+
+One more useful thing about Jest: watch mode. You can run your tests interactively and on file-save. It'll only re-run tests that could have possibly been changed and previously failed so it's a fast feedback cycle to fix tests. Add this as well to your package.json: `"test:watch": "jest --watch",`.
+
 If you want to go further with testing, checkout [Enzyme][enzyme], which I taught in former versions on this course.
 
-## 🌳 d467e575aea8ca0427ae0e06de1d8481221980e3 (branch testing)
+## 🌳 d887a47606ef0bc7c6536e2afa9fd5b977442508 (branch testing)
 
 [kcd]: https://frontendmasters.com/courses/testing-react/
 [jest]: https://jestjs.io
 [jasmine]: https://jasmine.github.io/
 [enzyme]: http://airbnb.io/enzyme/
+
+[istanbul]:

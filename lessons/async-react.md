@@ -225,4 +225,4 @@ export default Carousel;
 * The data attribute comes back as a string. We want it to be a number, hence the `+`.
 * We're doing bad accessibility stuff. But this makes it a lot simpler for now. But don't do this in production.
 
-## 🌳 6e205da64719f8f7eba8ec5f9999c6090ad170c7
+## 🌳 674d4a2a7d4feb663d83bd761b1b23f5c7d3f557

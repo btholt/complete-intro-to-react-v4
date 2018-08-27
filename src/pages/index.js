@@ -15,6 +15,14 @@ const IndexPage = props => (
       title="Table of Contents"
       content={props.data.allMarkdownRemark.edges}
     />
+
+    <div className="jumbotron">
+      <h2 className="fem-link">
+        <a href="https://frontendmasters.com/workshops/complete-intro-react-v4/">
+          See the video on FrontendMasters.com
+        </a>
+      </h2>
+    </div>
   </div>
 );
 

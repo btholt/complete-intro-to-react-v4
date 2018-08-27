@@ -90,7 +90,7 @@ Worth adding three things here:
 
 ESLint is a cinch to get working with [Visual Studio Code][vscode]. Just down [the extension][vscode-eslint].
 
-## 🌳 fd4d436dad5f7fb27568d0f4823a7eb39115a3c7
+## 🌳 9850d4dbcccb76055fd32979e3b749f9c36e94ca
 
 ## Alternatives
 
