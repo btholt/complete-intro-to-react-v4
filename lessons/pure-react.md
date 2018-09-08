@@ -132,7 +132,11 @@ ReactDOM.render(React.createElement(App), document.getElementById("root"));
 
 Now we have a more flexible component that accepts props from its parent. Props are variables that a parent (App) passes to its children (the instances of Pet.) Now each one can be different! Now that it's far more useful than it was since this Pet component can represent not just Luna, but any Pet. This is the power of React! We can make multiple, re-usable components. We can then use these components to build larger components, which in turn make up yet-larger components. This how React apps are made!
 
-## 🌳 d6bf51f49b6c71710cd806e5e78d0c47f5dcf09a
+&nbsp;
+
+## 🌳 [d6bf51f49b6c71710cd806e5e78d0c47f5dcf09a](https://github.com/btholt/complete-intro-to-react-v4/commit/d6bf51f49b6c71710cd806e5e78d0c47f5dcf09a)
+
+&nbsp;
 
 Let's make the App interactive a bit. Convert App to a class like this:
 

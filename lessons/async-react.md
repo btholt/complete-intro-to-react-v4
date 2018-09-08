@@ -117,6 +117,8 @@ Now with this, we can modify Details to be as so:
 state = { loading: true };
 ```
 
+## 🌳 day-one
+
 Loads easier to read, right? Feel free to replace the other constructors in the project if you want to.
 
 Okay, so on this page, notice first we have a loading indicator (this one isn't nice looking but you could put some effort into it if you wanted.) This is a good idea while you're waiting for data to load.
@@ -225,4 +227,6 @@ export default Carousel;
 * The data attribute comes back as a string. We want it to be a number, hence the `+`.
 * We're doing bad accessibility stuff. But this makes it a lot simpler for now. But don't do this in production.
 
-## 🌳 674d4a2a7d4feb663d83bd761b1b23f5c7d3f557
+&nbsp;
+
+## 🌳 [6b735915f11424aa3cbc38bdb0315ae4896264e3](https://github.com/btholt/complete-intro-to-react-v4/commit/6b735915f11424aa3cbc38bdb0315ae4896264e3)
