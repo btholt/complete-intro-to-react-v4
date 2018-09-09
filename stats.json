@@ -1,20 +1,20 @@
 {
   "assetsByChunkName": {
     "path---testing": [
-      "path---testing-bcf0a7448288804cb903.js",
-      "path---testing-bcf0a7448288804cb903.js.map"
+      "path---testing-80cc89dc7cea13f1d64c.js",
+      "path---testing-80cc89dc7cea13f1d64c.js.map"
     ],
     "path---eslint-prettier": [
-      "path---eslint-prettier-005e11415f486e853c88.js",
-      "path---eslint-prettier-005e11415f486e853c88.js.map"
+      "path---eslint-prettier-210c730d978921792949.js",
+      "path---eslint-prettier-210c730d978921792949.js.map"
     ],
     "path---emotion": [
       "path---emotion-e8e5795c40b6f277ee6d.js",
       "path---emotion-e8e5795c40b6f277ee6d.js.map"
     ],
     "path---react-state-and-lifecycles": [
-      "path---react-state-and-lifecycles-08f35ad423f1393d0244.js",
-      "path---react-state-and-lifecycles-08f35ad423f1393d0244.js.map"
+      "path---react-state-and-lifecycles-817c05c242efcb0b718d.js",
+      "path---react-state-and-lifecycles-817c05c242efcb0b718d.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-29784d77c5c3847e9102.js",
@@ -25,8 +25,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---context": [
-      "path---context-1859b9bbac18722ca9ce.js",
-      "path---context-1859b9bbac18722ca9ce.js.map"
+      "path---context-9cc6159abd71327aa015.js",
+      "path---context-9cc6159abd71327aa015.js.map"
     ],
     "path---code-splitting": [
       "path---code-splitting-50929e52d31745e73dfe.js",
@@ -37,28 +37,28 @@
       "path---typescript-55b57c608428323c5281.js.map"
     ],
     "path---pure-react": [
-      "path---pure-react-a7c2f245755cdddfcf86.js",
-      "path---pure-react-a7c2f245755cdddfcf86.js.map"
+      "path---pure-react-8f3d1b36db17fa16f963.js",
+      "path---pure-react-8f3d1b36db17fa16f963.js.map"
     ],
     "path---code-organization": [
       "path---code-organization-dd8165537c2c452e08b2.js",
       "path---code-organization-dd8165537c2c452e08b2.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-125b8f40264dd388019c.js",
-      "component---src-layouts-index-js-125b8f40264dd388019c.js.map"
+      "component---src-layouts-index-js-faa200d1d58c242c0bcb.js",
+      "component---src-layouts-index-js-faa200d1d58c242c0bcb.js.map"
     ],
     "path---parcel": [
-      "path---parcel-b86f5ec3a299bb07ef20.js",
-      "path---parcel-b86f5ec3a299bb07ef20.js.map"
+      "path---parcel-4739b8f4d74721383733.js",
+      "path---parcel-4739b8f4d74721383733.js.map"
     ],
     "path---jsx": [
-      "path---jsx-8d58dec869ef72caa31c.js",
-      "path---jsx-8d58dec869ef72caa31c.js.map"
+      "path---jsx-25ac9c1243a2b6357da2.js",
+      "path---jsx-25ac9c1243a2b6357da2.js.map"
     ],
     "path---index": [
-      "path---index-a2cfa6cf90b67e5e0616.js",
-      "path---index-a2cfa6cf90b67e5e0616.js.map"
+      "path---index-5e688c013acb50034ae4.js",
+      "path---index-5e688c013acb50034ae4.js.map"
     ],
     "path---conclusion": [
       "path---conclusion-9047e5d5ce00c567a17e.js",
@@ -87,30 +87,30 @@
       "path---preact-805a0877da0265401480.js.map"
     ],
     "app": [
-      "app-f644362e3fa53d551be3.js",
+      "app-5b81b364d48a23970440.js",
       "build-js-styles.css",
-      "app-f644362e3fa53d551be3.js.map",
+      "app-5b81b364d48a23970440.js.map",
       "build-js-styles.css.map"
     ],
     "path---portals": [
-      "path---portals-5935fb37c00d135f0f39.js",
-      "path---portals-5935fb37c00d135f0f39.js.map"
+      "path---portals-d52bfd36e56b8de5ca8c.js",
+      "path---portals-d52bfd36e56b8de5ca8c.js.map"
     ],
     "path---reach-router": [
-      "path---reach-router-a27b56710ba720187dd4.js",
-      "path---reach-router-a27b56710ba720187dd4.js.map"
+      "path---reach-router-7d872f94f9b451e041e6.js",
+      "path---reach-router-7d872f94f9b451e041e6.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---async-and-events-in-react": [
-      "path---async-and-events-in-react-87b2183268ef59b4d4b7.js",
-      "path---async-and-events-in-react-87b2183268ef59b4d4b7.js.map"
+      "path---async-and-events-in-react-ef993a6f9f4c572a28c7.js",
+      "path---async-and-events-in-react-ef993a6f9f4c572a28c7.js.map"
     ],
     "path---intro": [
-      "path---intro-5ae482dbd3cbe8427ca0.js",
-      "path---intro-5ae482dbd3cbe8427ca0.js.map"
+      "path---intro-868e8958ae9b66ec030f.js",
+      "path---intro-868e8958ae9b66ec030f.js.map"
     ],
     "path---server-side-rendering": [
       "path---server-side-rendering-86c6ccba525b8e90a6c6.js",
@@ -121,8 +121,8 @@
       "path---redux-7b7b34c3d7c96b85d33d.js.map"
     ],
     "path---forms": [
-      "path---forms-48807b4e38b74c6cff42.js",
-      "path---forms-48807b4e38b74c6cff42.js.map"
+      "path---forms-abf30634bc9a13d048ca.js",
+      "path---forms-abf30634bc9a13d048ca.js.map"
     ]
   }
 }
