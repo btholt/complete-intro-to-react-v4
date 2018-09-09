@@ -157,11 +157,11 @@ location={`${pet.contact.city}, ${pet.contact.state}`}
 
 &nbsp;
 
-## 🌳 [71acce148b51c4360d1f13e07a94f289dc9b1382](https://github.com/btholt/complete-intro-to-react-v4/commit/71acce148b51c4360d1f13e07a94f289dc9b1382)
+## 🌳 [a03f5238887153cb41bf6708f1518d1f03c0f7d4](https://github.com/btholt/complete-intro-to-react-v4/commit/a03f5238887153cb41bf6708f1518d1f03c0f7d4)
 
 **To use reset code to this commit:**
 
-* `git checkout 71acce148b51c4360d1f13e07a94f289dc9b1382 -f`
+* `git checkout a03f5238887153cb41bf6708f1518d1f03c0f7d4 -f`
 * `npm install`
 * Add API keys to your `.env` file
 * Run `npm run dev`.

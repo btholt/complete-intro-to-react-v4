@@ -212,7 +212,7 @@ Now `/search-params` and `/` will both work with context!
 
 Here's the commit with context (which we'll keep working with):
 
-## With Context: 🌳 [c7cb6ae30a829d671e71e6a90429966e6932d5f1](https://github.com/btholt/complete-intro-to-react-v4/commit/c7cb6ae30a829d671e71e6a90429966e6932d5f1)
+## With Context: 🌳 [c0da3625726882dabc28255a3527f0170f31a9d7](https://github.com/btholt/complete-intro-to-react-v4/commit/c0da3625726882dabc28255a3527f0170f31a9d7)
 
 &nbsp;
 
@@ -313,7 +313,7 @@ search() {
 
 &nbsp;
 
-## 🌳 [f66f3e8a31ec0a52872a6d0d9903479b6eef2ea4](https://github.com/btholt/complete-intro-to-react-v4/commit/f66f3e8a31ec0a52872a6d0d9903479b6eef2ea4)
+## 🌳 [9311c6076a41f350b9ad45f9bfa8528c1a8b81d0](https://github.com/btholt/complete-intro-to-react-v4/commit/9311c6076a41f350b9ad45f9bfa8528c1a8b81d0)
 
 &nbsp;
 

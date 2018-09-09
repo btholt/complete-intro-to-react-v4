@@ -92,7 +92,7 @@ ESLint is a cinch to get working with [Visual Studio Code][vscode]. Just down [t
 
 &nbsp;
 
-## 🌳 [755af880d1955d1afa6abaf8e7d50d75cd27eb05](https://github.com/btholt/complete-intro-to-react-v4/commit/755af880d1955d1afa6abaf8e7d50d75cd27eb05)
+## 🌳 [954df2395424869e65b9a9edf9b8dad4f3cfb2fe](https://github.com/btholt/complete-intro-to-react-v4/commit/954df2395424869e65b9a9edf9b8dad4f3cfb2fe)
 
 &nbsp;
 
