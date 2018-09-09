@@ -107,7 +107,11 @@ This particular configuration has a lot of rules to help you quickly catch commo
 * react is mostly common React things, like making sure you import React anywhere you use React.
 * babel-lint allows ESLint to use the same transpiling library, Babel, that Parcel uses under the hood. Without it, ESLint can't understand JSX.
 
+&nbsp;
+
 ## 🌳 [3dd8600664d8840a168d7f5bbdb004cf15652a54](https://github.com/btholt/complete-intro-to-react-v4/commit/3dd8600664d8840a168d7f5bbdb004cf15652a54)
+
+&nbsp;
 
 [airbnb]: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
 [standard]: https://standardjs.com/

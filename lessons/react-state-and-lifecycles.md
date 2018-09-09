@@ -155,7 +155,18 @@ location={`${pet.contact.city}, ${pet.contact.state}`}
 
 * Petfinder gives you five sizes of each image. The `pn` size is the appropriate size for what we want.
 
+&nbsp;
+
 ## 🌳 [71acce148b51c4360d1f13e07a94f289dc9b1382](https://github.com/btholt/complete-intro-to-react-v4/commit/71acce148b51c4360d1f13e07a94f289dc9b1382)
+
+**To use reset code to this commit:**
+
+* `git checkout 71acce148b51c4360d1f13e07a94f289dc9b1382 -f`
+* `npm install`
+* Add API keys to your `.env` file
+* Run `npm run dev`.
+
+&nbsp;
 
 [petfinder]: https://www.petfinder.com/
 [api]: https://www.petfinder.com/developers/api-key
