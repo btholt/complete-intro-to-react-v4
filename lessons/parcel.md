@@ -64,6 +64,12 @@ import Pet from "./Pet";
 
 Load the page again. Still works! Now we can separate components into separate files. Parcel does more us than just this but we'll get to that in future sections.
 
+&nbsp;
+
+## 🌳 [a018941b12a88d8b61e7d5947e9c04635b8970e7](https://github.com/btholt/complete-intro-to-react-v4/commit/a018941b12a88d8b61e7d5947e9c04635b8970e7)
+
+&nbsp;
+
 ## Alternatives
 
 * [Webpack][webpack]

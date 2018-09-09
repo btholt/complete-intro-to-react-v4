@@ -208,13 +208,19 @@ Now in Results.js, just add:
 <SearchBox />
 ```
 
-Now `/search-params` and `/` will both work with context! Again, we should have done this without context, but I wanted to show you want that would look like. [Check out this PR][pr]. And here's the commit if you're interested:
-
-## Without Context: 🌳 c8a83bd4adb5dfc92615cbce194fda3afb56c7cc (branch: without-context)
+Now `/search-params` and `/` will both work with context!
 
 Here's the commit with context (which we'll keep working with):
 
-## With Context: 🌳 ec16c0de7ee55a7112f8f2d7d80b615fcffd66dd
+## With Context: 🌳 [c7cb6ae30a829d671e71e6a90429966e6932d5f1](https://github.com/btholt/complete-intro-to-react-v4/commit/c7cb6ae30a829d671e71e6a90429966e6932d5f1)
+
+&nbsp;
+
+In a real-world situation, using context for this situation is probably overkill. If you'd like to see what this looks like without using context, [check out this pull request][pr]. Here's the commit if you're interested:
+
+## Without Context: 🌳 [c8a83bd4adb5dfc92615cbce194fda3afb56c7cc](https://github.com/btholt/complete-intro-to-react-v4/commit/c8a83bd4adb5dfc92615cbce194fda3afb56c7cc) (branch: without-context)
+
+&nbsp;
 
 Now let's go make the Results read from the Consumer as well.
 
@@ -305,6 +311,10 @@ search() {
 * Now the SearchParams works too, reading data from one route and using it in another. Again, this is overkill and not necessarily a good use of context, but it's good illustrate how it would work.
 * We use navigate from Reach Router. This lets us programmatically redirect to the Results page.
 
-## 🌳 f7fd7f1db8408f71165ddcbdc10cc4c00572a859
+&nbsp;
+
+## 🌳 [f66f3e8a31ec0a52872a6d0d9903479b6eef2ea4](https://github.com/btholt/complete-intro-to-react-v4/commit/f66f3e8a31ec0a52872a6d0d9903479b6eef2ea4)
+
+&nbsp;
 
 [pr]: https://github.com/btholt/complete-intro-to-react-v4/pull/1

@@ -229,4 +229,4 @@ export default Carousel;
 
 &nbsp;
 
-## 🌳 [6b735915f11424aa3cbc38bdb0315ae4896264e3](https://github.com/btholt/complete-intro-to-react-v4/commit/6b735915f11424aa3cbc38bdb0315ae4896264e3)
+## 🌳 [d6a1f2f297dc6c67f1d4e64c0b38f5abcd56fc4b](https://github.com/btholt/complete-intro-to-react-v4/commit/d6a1f2f297dc6c67f1d4e64c0b38f5abcd56fc4b)
