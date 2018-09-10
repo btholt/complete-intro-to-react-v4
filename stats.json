@@ -45,8 +45,8 @@
       "path---code-organization-dd8165537c2c452e08b2.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-faa200d1d58c242c0bcb.js",
-      "component---src-layouts-index-js-faa200d1d58c242c0bcb.js.map"
+      "component---src-layouts-index-js-1b244f173232f254d8ec.js",
+      "component---src-layouts-index-js-1b244f173232f254d8ec.js.map"
     ],
     "path---parcel": [
       "path---parcel-dfc307aa03e0d5f983ea.js",
@@ -57,8 +57,8 @@
       "path---jsx-142d8a4f29afb8de0cd1.js.map"
     ],
     "path---index": [
-      "path---index-5e688c013acb50034ae4.js",
-      "path---index-5e688c013acb50034ae4.js.map"
+      "path---index-06a2d6fd83def010bf04.js",
+      "path---index-06a2d6fd83def010bf04.js.map"
     ],
     "path---conclusion": [
       "path---conclusion-9047e5d5ce00c567a17e.js",
@@ -87,9 +87,9 @@
       "path---preact-805a0877da0265401480.js.map"
     ],
     "app": [
-      "app-5b81b364d48a23970440.js",
+      "app-6f1439896d5d93ec2abf.js",
       "build-js-styles.css",
-      "app-5b81b364d48a23970440.js.map",
+      "app-6f1439896d5d93ec2abf.js.map",
       "build-js-styles.css.map"
     ],
     "path---portals": [
