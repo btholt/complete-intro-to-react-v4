@@ -20,9 +20,11 @@ module.exports = {
           `gatsby-remark-prismjs`,
           {
             resolve: `gatsby-remark-images`,
-            maxWidth: 800,
-            linkImagesToOriginal: true,
-            sizeByPixelDensity: false
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: true,
+              sizeByPixelDensity: false
+            }
           }
         ]
       }
