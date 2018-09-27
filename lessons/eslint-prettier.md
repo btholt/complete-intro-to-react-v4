@@ -52,14 +52,18 @@ There really aren't any for Prettier. The alternative is just not to use a forma
 
 ## ESLint
 
-On top of Prettier which takes of all the formatting, you may want to enforce some code styles which pertain more to usage: for example you may want to force people never use `with` which is valid JS but illadvised to use. ESLint comes into play here. It will lint for this problems. There are dozens of present configs for ESLint and you're welcome to use any one of them. The Airbnb config is very popular, as is the standard config (which both I taught in previous versions of this class.) I'm going to use a looser one for this class: `eslint:recommended`. Let's create an `.eslintrc.json` file to start linting our project.
+On top of Prettier which takes of all the formatting, you may want to enforce some code styles which pertain more to usage: for example you may want to force people never use `with` which is valid JS but illadvised to use. [ESLint][eslint] comes into play here. It will lint for this problems.
+
+First of all, run `npm install -D eslint` to install eslint in your project development dependencies. Then you may configure its functionalities.
+
+There are dozens of present configs for ESLint and you're welcome to use any one of them. The Airbnb config is very popular, as is the standard config (which both I taught in previous versions of this class). I'm going to use a looser one for this class: `eslint:recommended`. Let's create an `.eslintrc.json` file to start linting our project.
 
 Create this file called `.eslintrc.json`.
 
 ```json
 {
   "extends": ["eslint:recommended", "prettier", "prettier/react"],
-  "plugins": ["prettier"],
+  "plugins": [],
   "parserOptions": {
     "ecmaVersion": 2016,
     "sourceType": "module",
@@ -113,4 +117,5 @@ ESLint is a cinch to get working with [Visual Studio Code][vscode]. Just down [t
 [vscode]: https://code.visualstudio.com/?WT.mc_id=reactintro-github-brholt
 [vscode-eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&WT.mc_id=reactintro-github-brholt
 [vscode-prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&WT.mc_id=reactintro-github-brholt
+[eslint]: https://eslint.org
 [jshint]: http://jshint.com/
