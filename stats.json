@@ -5,8 +5,8 @@
       "path---testing-80cc89dc7cea13f1d64c.js.map"
     ],
     "path---eslint-prettier": [
-      "path---eslint-prettier-8a278f1bf88752d6b8d6.js",
-      "path---eslint-prettier-8a278f1bf88752d6b8d6.js.map"
+      "path---eslint-prettier-27465d8b2eead59d57e2.js",
+      "path---eslint-prettier-27465d8b2eead59d57e2.js.map"
     ],
     "path---emotion": [
       "path---emotion-e8e5795c40b6f277ee6d.js",
@@ -17,8 +17,8 @@
       "path---react-state-and-lifecycles-01dd04a4db5ef6a0da5f.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-29784d77c5c3847e9102.js",
-      "component---src-pages-index-js-29784d77c5c3847e9102.js.map"
+      "component---src-pages-index-js-873b18b5ebd1a8c0dfe0.js",
+      "component---src-pages-index-js-873b18b5ebd1a8c0dfe0.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -33,8 +33,8 @@
       "path---code-splitting-50929e52d31745e73dfe.js.map"
     ],
     "path---typescript": [
-      "path---typescript-55b57c608428323c5281.js",
-      "path---typescript-55b57c608428323c5281.js.map"
+      "path---typescript-b9afeed1887f1bcd11ec.js",
+      "path---typescript-b9afeed1887f1bcd11ec.js.map"
     ],
     "path---pure-react": [
       "path---pure-react-8f3d1b36db17fa16f963.js",
@@ -45,8 +45,8 @@
       "path---code-organization-dd8165537c2c452e08b2.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1b244f173232f254d8ec.js",
-      "component---src-layouts-index-js-1b244f173232f254d8ec.js.map"
+      "component---src-layouts-index-js-b34eab90672c3900a365.js",
+      "component---src-layouts-index-js-b34eab90672c3900a365.js.map"
     ],
     "path---parcel": [
       "path---parcel-dfc307aa03e0d5f983ea.js",
@@ -57,8 +57,8 @@
       "path---jsx-142d8a4f29afb8de0cd1.js.map"
     ],
     "path---index": [
-      "path---index-06a2d6fd83def010bf04.js",
-      "path---index-06a2d6fd83def010bf04.js.map"
+      "path---index-7a554bf6ca04835c9fbf.js",
+      "path---index-7a554bf6ca04835c9fbf.js.map"
     ],
     "path---conclusion": [
       "path---conclusion-9047e5d5ce00c567a17e.js",
@@ -83,13 +83,13 @@
       "component---src-templates-lesson-template-js-865d6f0e0344103b42d0.js.map"
     ],
     "path---preact": [
-      "path---preact-805a0877da0265401480.js",
-      "path---preact-805a0877da0265401480.js.map"
+      "path---preact-7c40c5c51f1439075e42.js",
+      "path---preact-7c40c5c51f1439075e42.js.map"
     ],
     "app": [
-      "app-6f1439896d5d93ec2abf.js",
+      "app-0aca3d75b9373d568bc2.js",
       "build-js-styles.css",
-      "app-6f1439896d5d93ec2abf.js.map",
+      "app-0aca3d75b9373d568bc2.js.map",
       "build-js-styles.css.map"
     ],
     "path---portals": [
@@ -97,8 +97,8 @@
       "path---portals-517c80c5390e45edddaa.js.map"
     ],
     "path---reach-router": [
-      "path---reach-router-3c9e5aef6d37d3bc44ab.js",
-      "path---reach-router-3c9e5aef6d37d3bc44ab.js.map"
+      "path---reach-router-d909a6ea6e74341fbd29.js",
+      "path---reach-router-d909a6ea6e74341fbd29.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -109,8 +109,8 @@
       "path---async-and-events-in-react-e26699fea1c5333bbac3.js.map"
     ],
     "path---intro": [
-      "path---intro-43f7f51c003cfd80b056.js",
-      "path---intro-43f7f51c003cfd80b056.js.map"
+      "path---intro-df1e6f14fda5a64c5ed3.js",
+      "path---intro-df1e6f14fda5a64c5ed3.js.map"
     ],
     "path---server-side-rendering": [
       "path---server-side-rendering-86c6ccba525b8e90a6c6.js",
