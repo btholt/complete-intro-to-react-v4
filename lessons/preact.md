@@ -16,7 +16,7 @@ So how we convert our app over to Preact? It _mostly_ works as is with a few exc
 1. `npm install preact preact-compat preact-context preact-router`
 1. Find all instances of `"react"` and replace with `"preact-compat"`
 1. Find all instances of `"react-dom"` and replace with `"preact-compat"`
-1. Find all instances of `"@react/router"` and replace with `"preact-router"`
+1. Find all instances of `"@reach/router"` and replace with `"preact-router"`
 1. Find all instances of the `<Link>` component being used and replace the `to` attribute with `href`
 1. In SearchContext.js, replace React import with `import { createContext } from "preact-context";` and then remove the `React.` from `React.createContext`.
 1. In SearchParams.js, renamed `navigate` to `route` in both the import and the call.
