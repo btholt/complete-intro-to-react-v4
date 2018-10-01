@@ -56,5 +56,5 @@ And hey, if you could take a second and [star the repo on GitHub][gh] I'd be sup
 [instagram]: https://www.instagram.com/briantholt/
 [github]: https://github.com/btholt
 [linkedin]: https://www.linkedin.com/in/btholt/
-[course]: https://frontendmasters.com/workshops/complete-intro-react-v4/
+[course]: https://frontendmasters.com/courses/complete-react-v4/
 [vwc]: https://vetswhocode.io/

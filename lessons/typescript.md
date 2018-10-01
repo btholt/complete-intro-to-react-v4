@@ -343,5 +343,5 @@ Congrats! You finished TypeScript.
 
 ## 🌳 206b5545a1d66c5940d900f346a8ccc90af1bfc4 (branch typescript)
 
-[mike]: https://frontendmasters.com/workshops/typescript/
+[mike]: https://frontendmasters.com/courses/typescript/
 [dt]: https://www.definitelytyped.org

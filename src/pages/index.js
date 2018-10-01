@@ -18,7 +18,7 @@ const IndexPage = props => (
 
     <div className="jumbotron">
       <h2 className="fem-link">
-        <a href="https://frontendmasters.com/workshops/complete-intro-react-v4/">
+        <a href="https://frontendmasters.com/courses/complete-react-v4/">
           See the video on FrontendMasters.com
         </a>
       </h2>

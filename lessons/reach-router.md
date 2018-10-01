@@ -120,7 +120,7 @@ Now we have two pages and the router available. Let's go make it ready to switch
 
 ```javascript
 // at top
-import { Router } from "@react/router";
+import { Router } from "@reach/router";
 import Details from "./Details";
 
 // replace <Results />
