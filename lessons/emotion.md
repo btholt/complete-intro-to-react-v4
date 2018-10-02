@@ -4,7 +4,7 @@ path: "/emotion"
 order: 14
 ---
 
-Emotion is a library for including your styles inside of your component files and allowing you to harnass JavaScript to easily script your CSS. While previous CSS-in-JS solutions ballooned file sizes and were slow, Emotion is both small and fast. I'll show you how to get started with it; it merits its own course on all the cool and crazy things you can do with it.
+Emotion is a library for including your styles inside of your component files and allowing you to harness JavaScript to easily script your CSS. While previous CSS-in-JS solutions ballooned file sizes and were slow, Emotion is both small and fast. I'll show you how to get started with it; it merits its own course on all the cool and crazy things you can do with it.
 
 First run `npm install emotion react-emotion`.
 

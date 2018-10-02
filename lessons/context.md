@@ -4,7 +4,7 @@ path: "/context"
 order: 10
 ---
 
-Historically I have not taught context when teaching React. This was for a couple reasons. First of all, the API they were using was still unoffical, however they standardized it in version 16. Secondly, normally you don't need context; React's state is enough. Thirdly, the old API was bad, in my opinion. The new one is pretty good.
+Historically I have not taught context when teaching React. This was for a couple reasons. First of all, the API they were using was still unofficial, however they standardized it in version 16. Secondly, normally you don't need context; React's state is enough. Thirdly, the old API was bad, in my opinion. The new one is pretty good.
 
 So here we go. What is context? Context is like state, but instead of being confined to a component, it's global to your application. It's application-level state. This is dangerous. Avoid using context until you _have_ to use it. One of React's primary benefit is it makes the flow of data obvious by being explicit. This can make it cumbersome at times but it's worth it because your code stays legible and understandable. Things like context obscure it.
 
@@ -12,7 +12,7 @@ Context replaces Redux. Well, typically. It fills the same need as Redux. I real
 
 Again, this is a contrived example. What we're doing here is overkill and should be accomplished via React's normal patterns. But let's check out what this looks like.
 
-Image if we wanted to make the search box at the top of the page appear on the search-params page and the results page and re-use that component. And we want to make that state stick between the two. This means the state has live outside of those routes. We could use Redux for it, we coulde React itself, or we're going to use context, to teach you what that looks like.
+Image if we wanted to make the search box at the top of the page appear on the search-params page and the results page and re-use that component. And we want to make that state stick between the two. This means the state has live outside of those routes. We could use Redux for it, we could React itself, or we're going to use context, to teach you what that looks like.
 
 Make a new file called SearchContext.js
 

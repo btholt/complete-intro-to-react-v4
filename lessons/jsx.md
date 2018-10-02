@@ -32,7 +32,7 @@ Notice the strange `{props.name}` syntax: this is how you output JavaScript expr
 
 ESLint is currently failing. We'll fix it at the end.
 
-Notice you still have to import React despite React not being explictly used. Remember that JSX is compiled to `React.createElement` calls. Anywhere you use JSX, you need to import React.
+Notice you still have to import React despite React not being explicitly used. Remember that JSX is compiled to `React.createElement` calls. Anywhere you use JSX, you need to import React.
 
 So now JSX is demystified a bit, let's go convert App.js.
 

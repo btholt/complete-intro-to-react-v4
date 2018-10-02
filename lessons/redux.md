@@ -48,7 +48,7 @@ const store = createStore(
 export default store;
 ```
 
-We're including the dev tools middleware (I'll show you at the end) as well as redux-thunk which we'll use in a second to do async actions. This is the base of a store: a reducer. A store is just basically a big object with presecribed ways of changing it. So let's go make our first reducer.
+We're including the dev tools middleware (I'll show you at the end) as well as redux-thunk which we'll use in a second to do async actions. This is the base of a store: a reducer. A store is just basically a big object with prescribed ways of changing it. So let's go make our first reducer.
 
 Make a new folder in src called `reducers.js`. In reducers.js, put:
 
@@ -74,7 +74,7 @@ export default function location(state = "Seattle, WA", action) {
 }
 ```
 
-Not very difficult. A reducer takes an old state, an action, and combines those things to make a state. In thise case, if the state is `San Francisco, CA` and some calls it with the action `{type: 'CHANGE_LOCATION': payload: 'Salt Lake City, UT' }` then the _new_ state location would be Salt Lake City, UT.
+Not very difficult. A reducer takes an old state, an action, and combines those things to make a state. In this case, if the state is `San Francisco, CA` and some calls it with the action `{type: 'CHANGE_LOCATION': payload: 'Salt Lake City, UT' }` then the _new_ state location would be Salt Lake City, UT.
 
 A reducer must have a default state. In our case, using ES6 default params, we made Seattle, WA our default state. This is how Redux will initialize your store, by calling each of your reducers once to get a default state.
 
@@ -154,7 +154,7 @@ export default function changeAnimal(animal) {
 }
 ```
 
-That's it! This one is the simplest form: create an objecct and return it. Some people will inline these action shapes in their React components. I prefer this because it makes refactors simple. Let's make the other two:
+That's it! This one is the simplest form: create an object and return it. Some people will inline these action shapes in their React components. I prefer this because it makes refactors simple. Let's make the other two:
 
 changeLocation.js
 
@@ -172,7 +172,7 @@ export default function changeBreed(breed) {
 }
 ```
 
-That's it for action creators. Let's also show you how to do async actions. there are a thousand flavors of how to do async with Redux. The most popular are [redux-obvservable][ro], [redux-saga][rs], [redux-promise][rp], and [redux-thunk][rt]. We're going to use redux-thunk because it's simplest: the others are more powerful but more complex.
+That's it for action creators. Let's also show you how to do async actions. there are a thousand flavors of how to do async with Redux. The most popular are [redux-observable][ro], [redux-saga][rs], [redux-promise][rp], and [redux-thunk][rt]. We're going to use redux-thunk because it's simplest: the others are more powerful but more complex.
 
 A thunk is a function. It's the representation of a value that has not been determined yet. It's an async value, similar to a promise. If I have
 
@@ -211,7 +211,7 @@ export default function getBreeds() {
 }
 ```
 
-Notice our function returns a function, a thunk. We do our AJAX maction and then only after we're done do we dispatch. That's a thunk. We also could dispatch _multiple_ actions, like if you wanted to show a loading indicator.
+Notice our function returns a function, a thunk. We do our AJAX action and then only after we're done do we dispatch. That's a thunk. We also could dispatch _multiple_ actions, like if you wanted to show a loading indicator.
 
 Okay, let's go integrate this now where context was being used before. Go to App.js:
 

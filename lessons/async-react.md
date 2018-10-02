@@ -72,7 +72,7 @@ class Details extends React.Component {
 export default Details;
 ```
 
-The constructor is getting annoying. We can use something called class propertie sto make it a lot nicer and easier to ready. Class properties are an upcoming part of JavaScript so we need to tell Parcel to include that code transformation when it transpiles our code. We do that by making a [Babel][babel] config file. Babel is the actual library that does the code transformation.
+The constructor is getting annoying. We can use something called class properties to make it a lot nicer and easier to ready. Class properties are an upcoming part of JavaScript so we need to tell Parcel to include that code transformation when it transpiles our code. We do that by making a [Babel][babel] config file. Babel is the actual library that does the code transformation.
 
 Since we're going to take ahold of our own Babel configuration, we need to take over _all of it_. Parcel won't do it for us anymore. So install the following:
 
@@ -152,7 +152,7 @@ class Carousel extends React.Component {
               key={photo.value}
               src={photo.value}
               className={index === active ? "active" : ""}
-              alt="animal thumnbail"
+              alt="animal thumbnail"
             />
           ))}
         </div>
@@ -210,7 +210,7 @@ class Carousel extends React.Component {
               key={photo.value}
               src={photo.value}
               className={index === active ? "active" : ""}
-              alt="animal thumnbail"
+              alt="animal thumbnail"
             />
           ))}
         </div>

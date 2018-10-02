@@ -205,7 +205,7 @@ handleLocationChange(event: React.KeyboardEvent<HTMLInputElement>) {},
 Let's go do SearchBox.tsx
 
 ```tsx
-// add inteface, add public to render, add type to generic
+// add interface, add public to render, add type to generic
 interface Props {
   search: () => void;
 }

@@ -33,7 +33,7 @@ componentDidMount() {
 }
 ```
 
-* pf takes in credentials and returns an API object. You only have to give it credentials here; anywere else you import it it'll retain the same credentials. The API response has a silly and ridiculous structure.
+* pf takes in credentials and returns an API object. You only have to give it credentials here; anywhere else you import it it'll retain the same credentials. The API response has a silly and ridiculous structure.
 * `componentDidMount` is a life cycle method for React; there are several of them but `componentDidMount` is by far the most useful. This is where you will make AJAX requests, integrate with third-party libraries; anything that you want guarantee that the DOM exists as well as anything you want to guarantee happens after the first render.
 * Here we're just making it request and logging it out. Let's make it store it as state.
 
