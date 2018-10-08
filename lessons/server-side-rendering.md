@@ -110,7 +110,7 @@ Run `npm run start` and then open http://localhost:3000 to see your server side 
 
 This is all cool, but we can make it _better_.
 
-With HTTP requests, you can actually send responses in chunks. This is called _streaming_ your request. When you stream a request, you send partially rendered bits to your client so that the browser can immediately start processing the HTML rather than getting one big payload at the end. Reallly, the biggest win is that browser can immediately start downloading CSS while you're still rendering your app.
+With HTTP requests, you can actually send responses in chunks. This is called _streaming_ your request. When you stream a request, you send partially rendered bits to your client so that the browser can immediately start processing the HTML rather than getting one big payload at the end. Really, the biggest win is that browser can immediately start downloading CSS while you're still rendering your app.
 
 Let's see how to do this:
 
@@ -137,7 +137,7 @@ app.use((req, res) => {
 ```
 
 * Node has a native type called a stream. A stream, similar to a bash stream, is a stream of data that can be piped into something else. In this case, we have a Node stream of React markup being rendered. As each thing is rendered, React fires off a chunk that then can be sent to the user more quickly.
-* First thing we do is _immediately_ write the head to the user. This way they can grab the `<head>` which the CSS `<link>` tag in it, meanin they can start the CSS download ASAP.
+* First thing we do is _immediately_ write the head to the user. This way they can grab the `<head>` which the CSS `<link>` tag in it, meaning they can start the CSS download ASAP.
 * From there we start streaming the React markup to the user.
 * After we finish with that stream, we write the end of the index.html page and close the connection.
 
