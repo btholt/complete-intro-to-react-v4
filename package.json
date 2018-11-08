@@ -8,7 +8,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
-    "build": "parcel build --public-url ./dist/ src/index.html",
+    "build": "parcel build --public-url /dist/ src/index.html",
     "start": "npm -s run build && babel-node server/index.js"
   },
   "repository": {
