@@ -30,15 +30,15 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
-    "parcel-bundler": "^1.9.7",
+    "parcel-bundler": "^1.11.0",
     "prettier": "^1.14.2"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.5",
+    "@emotion/styled": "^10.0.5",
     "@reach/router": "^1.1.1",
-    "emotion": "^9.2.6",
     "petfinder-client": "^0.0.3",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-emotion": "^9.2.6"
+    "react-dom": "^16.4.2"
   }
 }
