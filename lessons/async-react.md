@@ -85,6 +85,7 @@ Now make a file called `.babelrc` with the following:
 ```json
 {
   "presets": [
+    "react",
     [
       "env",
       {
