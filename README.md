@@ -6,7 +6,7 @@ This course was written for and recorded by [Frontend Masters][fem] as the [Comp
 
 ## Important Note: Use Petfinder API v2 and Petfinder API Client 2.0.1
 
-The Petfinder API was updated to v2. All course code still works, but you'll need to sign up for developer keys for the V2 of the Petfinder API. You'll also need to update your Petfinder Client to v2.0.1 in your package.json. See: https://github.com/btholt/complete-intro-to-react-v4/blob/master/package.json#L38
+The Petfinder API was updated to v2. All course code still works, but you'll need to sign up for developer keys for the V2 of the Petfinder API (default if you are a new user). You'll also need to update your Petfinder Client (petfinder-client) to v2.0.1 in your package.json. See: https://github.com/btholt/complete-intro-to-react-v4/blob/master/package.json#L38
 
 ## Debugging
 
