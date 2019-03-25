@@ -4,7 +4,7 @@
 
 This course was written for and recorded by [Frontend Masters][fem] as the [Complete Intro to React v4][course] and [Intermediate React][course-intermediate] courses. The code here is licensed under the Apache 2.0 license and the [course notes][v4] are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
-## Important Note
+## Important Note: Use Petfinder API v2 and Petfinder API Client 2.0.1
 
 The Petfinder API was updated to v2. All course code still works, but you'll need to sign up for developer keys for the V2 of the Petfinder API. You'll also need to update your Petfinder Client to v2.0.1 in your package.json. See: https://github.com/btholt/complete-intro-to-react-v4/blob/master/package.json#L38
 
