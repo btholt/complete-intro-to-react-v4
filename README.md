@@ -4,6 +4,10 @@
 
 This course was written for and recorded by [Frontend Masters][fem] as the [Complete Intro to React v4][course] and [Intermediate React][course-intermediate] courses. The code here is licensed under the Apache 2.0 license and the [course notes][v4] are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
+## Important Note
+
+The Petfinder API was updated to v2. All course code still works, but you'll need to sign up for developer keys for the V2 of the Petfinder API. You'll also need to update your Petfinder Client to v2.0.1 in your package.json. See: https://github.com/btholt/complete-intro-to-react-v4/blob/master/package.json#L38
+
 ## Debugging
 
 Parcel is an ever evolving project that's just getting better. If you run into problems with it not respecting changes (particularly to your `.babelrc` or `.env` files) then delete the `dist/` and the `.cache/` directories. You can do this in bash by running from the root directoy of your project `rm -rf dist/ .cache/` or just by deleting those directories in your editor. This will force Parcel to start over and not cache anything.
