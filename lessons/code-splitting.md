@@ -97,4 +97,4 @@ const LoadableContent = Loadable({
 
 Now we're not just splitting on route, we're splitting other places! You can split content _anywhere_! Load one component async while the other ones load sync. Use your imagination to achieve the best UX.
 
-## 🌳 7e2e8fe0b6bec9696757b2fb752998089e5d4e5a (branch code-splitting)
+## 🌳 [5c4236c36f5e52755d4bad59eed83e5f232465e5](https://github.com/btholt/complete-intro-to-react-v4/commit/5c4236c36f5e52755d4bad59eed83e5f232465e5)
