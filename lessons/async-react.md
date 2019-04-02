@@ -118,7 +118,7 @@ Now with this, we can modify Details to be as so:
 state = { loading: true };
 ```
 
-## 🌳 day-one
+## 🌳 [e50c1ec3ec02b4cf3b119e1c59ad99884bc37d92](https://github.com/btholt/complete-intro-to-react-v4/commit/e50c1ec3ec02b4cf3b119e1c59ad99884bc37d92)
 
 Loads easier to read, right? Feel free to replace the other constructors in the project if you want to.
 
@@ -230,4 +230,4 @@ export default Carousel;
 
 &nbsp;
 
-## 🌳 [89678fe3f663be06f80e93370942592c03f3f5db](https://github.com/btholt/complete-intro-to-react-v4/commit/89678fe3f663be06f80e93370942592c03f3f5db)
+## 🌳 [4a257767e7b1ecb437d3f1b1d0e911e2cb051b6d](https://github.com/btholt/complete-intro-to-react-v4/commit/4a257767e7b1ecb437d3f1b1d0e911e2cb051b6d)
