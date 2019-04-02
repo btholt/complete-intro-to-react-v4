@@ -4,9 +4,15 @@
 
 This course was written for and recorded by [Frontend Masters][fem] as the [Complete Intro to React v4][course] and [Intermediate React][course-intermediate] courses. The code here is licensed under the Apache 2.0 license and the [course notes][v4] are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
-## Important Note: Use Petfinder API v2 and Petfinder API Client 2.0.1
+## Important Note About the Petfinder API
 
-The Petfinder API was updated to v2. All course code still works, but you'll need to sign up for developer keys for the V2 of the Petfinder API (default if you are a new user). You'll also need to update your Petfinder Client (petfinder-client) to v2.0.1 in your package.json. See: https://github.com/btholt/complete-intro-to-react-v4/blob/master/package.json#L38
+__This course now uses an internal mock of the Petfinder API.__ 
+
+The Petfinder API was updated to v2, and the v1 API (used in this course) was deprecated. The Petfinder Client API library was updated to return hardcoded, mock results to simulate the Petfinder API live response.
+
+Don't worry, all course code still works as in the videos! 😀
+
+**Note: If you started the course before April 2nd, 2019**, you'll need to update your Petfinder Client (petfinder-client) to `v1.0.1` in your package.json, delete your package-lock.json and run `npm install`. See: https://github.com/btholt/complete-intro-to-react-v4/blob/master/package.json#L38
 
 ## Debugging
 
