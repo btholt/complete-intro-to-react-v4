@@ -169,7 +169,7 @@ import { Router, Link } from "@reach/router";
 </header>;
 ```
 
-## 🌳 [89678fe3f663be06f80e93370942592c03f3f5db](https://github.com/btholt/complete-intro-to-react-v4/commit/89678fe3f663be06f80e93370942592c03f3f5db)
+## 🌳 [ce33b3ccc82fd78cc21b30d0dcc7bb1cb0337b72](https://github.com/btholt/complete-intro-to-react-v4/commit/ce33b3ccc82fd78cc21b30d0dcc7bb1cb0337b72)
 
 Now if you click the header, it'll take you back to the Results page. Cool. Now let's round out the Details page.
 
