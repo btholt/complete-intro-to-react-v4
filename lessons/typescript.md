@@ -341,7 +341,7 @@ Last thing, let's add a type check to our package.json just in case someone isn'
 
 Congrats! You finished TypeScript.
 
-## 🌳 206b5545a1d66c5940d900f346a8ccc90af1bfc4 (branch typescript)
+## 🌳 [9f3593112ddfe1b743a05b760c06569de61cec79](https://github.com/btholt/complete-intro-to-react-v4/commit/9f3593112ddfe1b743a05b760c06569de61cec79) ([typescript branch](https://github.com/btholt/complete-intro-to-react-v4/tree/typescript))
 
-[mike]: https://frontendmasters.com/courses/typescript/
+[mike]: https://frontendmasters.com/courses/typescript-v2/
 [dt]: https://www.definitelytyped.org

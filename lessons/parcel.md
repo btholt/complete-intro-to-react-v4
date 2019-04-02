@@ -66,11 +66,11 @@ Load the page again. Still works! Now we can separate components into separate f
 
 &nbsp;
 
-## 🌳 [3a2b2634906f97070b9e4dab145af8dae9a1f0d6](https://github.com/btholt/complete-intro-to-react-v4/commit/3a2b2634906f97070b9e4dab145af8dae9a1f0d6)
+## 🌳 [3fbe25c91e64af3b36c21247ee7600f59b98b021](https://github.com/btholt/complete-intro-to-react-v4/commit/3fbe25c91e64af3b36c21247ee7600f59b98b021)
 
 **To reset your code to this commit, run:**
 
-* `git checkout 3a2b2634906f97070b9e4dab145af8dae9a1f0d6 -f`
+* `git checkout 3fbe25c91e64af3b36c21247ee7600f59b98b021 -f`
 * `npm install`
 * `npm run dev`
 * Go to http://localhost:1234

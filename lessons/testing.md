@@ -12,7 +12,6 @@ _Note: This is where the Intermediate React course starts. All lessons from 12-2
 * `git checkout master -f`
 * Make sure you have [Node.js installed](https://nodejs.org).
 * `npm install`
-* Add `API_KEY` and `API_SECRET` to a `.env` file ([more info in previous section](react-state-and-lifecycles))
 * `npm run dev` to start the server on http://localhost:1234/
 
 This is meant to be a very brief treatise on how to do testing on React applications. Frontend Masters already has a [thorough course on how to test React applications][kcd] here from Kent C. Dodds. This will be a brief intro on how to set up Jest tests for the application we just created.
@@ -23,7 +22,7 @@ First we'll start with [Jest][jest]. Jest is the testing framework that Facebook
 
 It's useful to know that Jest is built on top of [Jasmine][jasmine]. Jasmine does the underlying testing part while Jest is the highlevel runner of the tests. Sometimes it's useful to consult the Jasmine docs too.
 
-So let's start testing our application. Run `npm install -D jest react-test-renderer`.
+So let's start testing our application. Run `npm install -D jest@^23.5.0 react-test-renderer@^16.8.3`.
 
 react-test-renderer is a tool directly from Facebook to rendering React component for testing purposes. Super useful.
 
@@ -115,11 +114,10 @@ One more useful thing about Jest: watch mode. You can run your tests interactive
 
 If you want to go further with testing, checkout [Enzyme][enzyme], which I taught in former versions on this course.
 
-## 🌳 d887a47606ef0bc7c6536e2afa9fd5b977442508 (branch testing)
+## 🌳 [0c8756f27e40209ba571bd31f138cc3d71f5d8f9](https://github.com/btholt/complete-intro-to-react-v4/commit/0c8756f27e40209ba571bd31f138cc3d71f5d8f9) ([testing branch](https://github.com/btholt/complete-intro-to-react-v4/tree/testing))
 
 [kcd]: https://frontendmasters.com/courses/testing-react/
 [jest]: https://jestjs.io
 [jasmine]: https://jasmine.github.io/
 [enzyme]: http://airbnb.io/enzyme/
-
-[istanbul]:
+[istanbul]: https://istanbul.js.org

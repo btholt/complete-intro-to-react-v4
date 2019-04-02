@@ -6,7 +6,11 @@ title: "State and Lifecycle Methods with React"
 
 Back to React! Let's make our app be able to read live data about animals to adopt! This data is courteous of [Petfinder.com][petfinder], a wonderful service that provides a free API for adopting animals. Unfortunately, this service is USA-based, so please use USA locations only or else it won't return any results.
 
-Please register [here][api] for an API key from Petfinder. Create a file in the root of your project (same directory as package.json) that is called `.env`. Put this in there:
+#### April 2nd, 2019: This course now uses an internal mock of the Petfinder API.
+
+You no longer need to register for an API key from Petfinder to use the Petfinder Client. The library will return mock data instead of live data.
+
+If you'd like to see how Parcel can ingest API keys still, create a file in the root of your project (same directory as package.json) that is called `.env`. Put this in there:
 
 ```
 API_KEY=<Your API key>
@@ -22,6 +26,7 @@ Now that your secrets are in there, let's install the Petfinder Client. I wrote 
 import pf from "petfinder-client";
 
 // under imports
+// Note (April 2nd, 2019): You no longer need real API keys, Petfinder Client will still work 
 const petfinder = pf({
   key: process.env.API_KEY,
   secret: process.env.API_SECRET
@@ -157,11 +162,11 @@ location={`${pet.contact.city}, ${pet.contact.state}`}
 
 &nbsp;
 
-## 🌳 [a03f5238887153cb41bf6708f1518d1f03c0f7d4](https://github.com/btholt/complete-intro-to-react-v4/commit/a03f5238887153cb41bf6708f1518d1f03c0f7d4)
+## 🌳 [4b7eff12d3fc06950e8d0c22ca441abe52daad8c](https://github.com/btholt/complete-intro-to-react-v4/commit/4b7eff12d3fc06950e8d0c22ca441abe52daad8c)
 
 **To use reset code to this commit:**
 
-* `git checkout a03f5238887153cb41bf6708f1518d1f03c0f7d4 -f`
+* `git checkout 4b7eff12d3fc06950e8d0c22ca441abe52daad8c -f`
 * `npm install`
 * Add API keys to your `.env` file
 * Run `npm run dev`.

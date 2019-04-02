@@ -109,7 +109,7 @@ This particular configuration has a lot of rules to help you quickly catch commo
 
 &nbsp;
 
-## 🌳 [f0d1d063ad52c47b2e30e27d524873f76fe6e71c](https://github.com/btholt/complete-intro-to-react-v4/commit/f0d1d063ad52c47b2e30e27d524873f76fe6e71c)
+## 🌳 [abc5cc31391da2b19a8e5fc13db1c2bec6d0bd3f](https://github.com/btholt/complete-intro-to-react-v4/commit/abc5cc31391da2b19a8e5fc13db1c2bec6d0bd3f)
 
 &nbsp;
 

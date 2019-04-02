@@ -141,6 +141,6 @@ app.use((req, res) => {
 * From there we start streaming the React markup to the user.
 * After we finish with that stream, we write the end of the index.html page and close the connection.
 
-## 🌳 [7bd2997f7c1789fed4df982ad160c6a3555d55d4](https://github.com/btholt/complete-intro-to-react-v4/commit/7bd2997f7c1789fed4df982ad160c6a3555d55d4)
+## 🌳 [7bd2997f7c1789fed4df982ad160c6a3555d55d4](https://github.com/btholt/complete-intro-to-react-v4/commit/7bd2997f7c1789fed4df982ad160c6a3555d55d4) ([ssr branch](https://github.com/btholt/complete-intro-to-react-v4/tree/ssr))
 
 [ex]: http://expressjs.com/
