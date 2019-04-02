@@ -106,7 +106,7 @@ app.listen(PORT);
 
 Run `npm run start` and then open http://localhost:3000 to see your server side rendered app. Notice it displays markup almost instantly.
 
-## 🌳 0d4aed673883b49217cc298ad7a1393e9eb331e7 (branch ssr)
+## 🌳 [7ba6c3984c3c9c911f33c8df7738244be12c892c](https://github.com/btholt/complete-intro-to-react-v4/commit/7ba6c3984c3c9c911f33c8df7738244be12c892c)
 
 This is all cool, but we can make it _better_.
 
@@ -141,6 +141,6 @@ app.use((req, res) => {
 * From there we start streaming the React markup to the user.
 * After we finish with that stream, we write the end of the index.html page and close the connection.
 
-## 🌳 73f4e764a36490882b2129e0255f4501ffe2167b (branch ssr)
+## 🌳 [7bd2997f7c1789fed4df982ad160c6a3555d55d4](https://github.com/btholt/complete-intro-to-react-v4/commit/7bd2997f7c1789fed4df982ad160c6a3555d55d4)
 
 [ex]: http://expressjs.com/
