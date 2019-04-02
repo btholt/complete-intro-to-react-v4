@@ -1,20 +1,20 @@
 {
   "assetsByChunkName": {
     "path---testing": [
-      "path---testing-80cc89dc7cea13f1d64c.js",
-      "path---testing-80cc89dc7cea13f1d64c.js.map"
+      "path---testing-7e87f6eaaf03982ecb6b.js",
+      "path---testing-7e87f6eaaf03982ecb6b.js.map"
     ],
     "path---eslint-prettier": [
-      "path---eslint-prettier-2ad95791fa0bdceccf37.js",
-      "path---eslint-prettier-2ad95791fa0bdceccf37.js.map"
+      "path---eslint-prettier-e5716195a983e521c984.js",
+      "path---eslint-prettier-e5716195a983e521c984.js.map"
     ],
     "path---emotion": [
-      "path---emotion-21eaa49914d08f19c23d.js",
-      "path---emotion-21eaa49914d08f19c23d.js.map"
+      "path---emotion-94edc3a3618ba5f7c599.js",
+      "path---emotion-94edc3a3618ba5f7c599.js.map"
     ],
     "path---react-state-and-lifecycles": [
-      "path---react-state-and-lifecycles-b3530eec3610cb7da5b5.js",
-      "path---react-state-and-lifecycles-b3530eec3610cb7da5b5.js.map"
+      "path---react-state-and-lifecycles-392cbaf6be06ec1aa52a.js",
+      "path---react-state-and-lifecycles-392cbaf6be06ec1aa52a.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-873b18b5ebd1a8c0dfe0.js",
@@ -25,40 +25,40 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---context": [
-      "path---context-801bd76913cc3789dddf.js",
-      "path---context-801bd76913cc3789dddf.js.map"
+      "path---context-f8b413f6d19d575613e2.js",
+      "path---context-f8b413f6d19d575613e2.js.map"
     ],
     "path---code-splitting": [
-      "path---code-splitting-50929e52d31745e73dfe.js",
-      "path---code-splitting-50929e52d31745e73dfe.js.map"
+      "path---code-splitting-ec2f1a68b1ff2ced57e5.js",
+      "path---code-splitting-ec2f1a68b1ff2ced57e5.js.map"
     ],
     "path---typescript": [
-      "path---typescript-100929210283bf10e90b.js",
-      "path---typescript-100929210283bf10e90b.js.map"
+      "path---typescript-f7426f4b00a0b0b23c9c.js",
+      "path---typescript-f7426f4b00a0b0b23c9c.js.map"
     ],
     "path---pure-react": [
-      "path---pure-react-cd3fe36a7723f4729f33.js",
-      "path---pure-react-cd3fe36a7723f4729f33.js.map"
+      "path---pure-react-60dcda3864a1c4d42e3a.js",
+      "path---pure-react-60dcda3864a1c4d42e3a.js.map"
     ],
     "path---code-organization": [
-      "path---code-organization-dd8165537c2c452e08b2.js",
-      "path---code-organization-dd8165537c2c452e08b2.js.map"
+      "path---code-organization-9aec1ce81d20af332376.js",
+      "path---code-organization-9aec1ce81d20af332376.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1b244f173232f254d8ec.js",
-      "component---src-layouts-index-js-1b244f173232f254d8ec.js.map"
+      "component---src-layouts-index-js-27760bdff5fc1ae74132.js",
+      "component---src-layouts-index-js-27760bdff5fc1ae74132.js.map"
     ],
     "path---parcel": [
-      "path---parcel-6a4ac65eb2874288f389.js",
-      "path---parcel-6a4ac65eb2874288f389.js.map"
+      "path---parcel-9de7b3b1a7e4b2247af6.js",
+      "path---parcel-9de7b3b1a7e4b2247af6.js.map"
     ],
     "path---jsx": [
-      "path---jsx-59ee5217793aea80c4f9.js",
-      "path---jsx-59ee5217793aea80c4f9.js.map"
+      "path---jsx-2c7e77284e5571697345.js",
+      "path---jsx-2c7e77284e5571697345.js.map"
     ],
     "path---index": [
-      "path---index-06a2d6fd83def010bf04.js",
-      "path---index-06a2d6fd83def010bf04.js.map"
+      "path---index-9ccbbe0b4b2e0a431855.js",
+      "path---index-9ccbbe0b4b2e0a431855.js.map"
     ],
     "path---conclusion": [
       "path---conclusion-9047e5d5ce00c567a17e.js",
@@ -83,46 +83,46 @@
       "component---src-templates-lesson-template-js-865d6f0e0344103b42d0.js.map"
     ],
     "path---preact": [
-      "path---preact-d2bf25b6823913af59a0.js",
-      "path---preact-d2bf25b6823913af59a0.js.map"
+      "path---preact-cb89aa513f143f8cf7e4.js",
+      "path---preact-cb89aa513f143f8cf7e4.js.map"
     ],
     "app": [
-      "app-6f1439896d5d93ec2abf.js",
+      "app-57efac3d2c344981867e.js",
       "build-js-styles.css",
-      "app-6f1439896d5d93ec2abf.js.map",
+      "app-57efac3d2c344981867e.js.map",
       "build-js-styles.css.map"
     ],
     "path---portals": [
-      "path---portals-517c80c5390e45edddaa.js",
-      "path---portals-517c80c5390e45edddaa.js.map"
+      "path---portals-4f2bab4a65f5f31baa3e.js",
+      "path---portals-4f2bab4a65f5f31baa3e.js.map"
     ],
     "path---reach-router": [
-      "path---reach-router-d909a6ea6e74341fbd29.js",
-      "path---reach-router-d909a6ea6e74341fbd29.js.map"
+      "path---reach-router-7b00c059c4c72911324a.js",
+      "path---reach-router-7b00c059c4c72911324a.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---async-and-events-in-react": [
-      "path---async-and-events-in-react-75648a347307a5f3e40a.js",
-      "path---async-and-events-in-react-75648a347307a5f3e40a.js.map"
+      "path---async-and-events-in-react-9747bff023f22042b804.js",
+      "path---async-and-events-in-react-9747bff023f22042b804.js.map"
     ],
     "path---intro": [
-      "path---intro-d6a8232216335aba7a24.js",
-      "path---intro-d6a8232216335aba7a24.js.map"
+      "path---intro-eaf3eeaf614ad79f4779.js",
+      "path---intro-eaf3eeaf614ad79f4779.js.map"
     ],
     "path---server-side-rendering": [
-      "path---server-side-rendering-2c921557ed6b7b4e51e0.js",
-      "path---server-side-rendering-2c921557ed6b7b4e51e0.js.map"
+      "path---server-side-rendering-e36bcc0b7e16d4dee28e.js",
+      "path---server-side-rendering-e36bcc0b7e16d4dee28e.js.map"
     ],
     "path---redux": [
-      "path---redux-ffc4489f1cf973e1efd2.js",
-      "path---redux-ffc4489f1cf973e1efd2.js.map"
+      "path---redux-b6323b24789cc3e407e0.js",
+      "path---redux-b6323b24789cc3e407e0.js.map"
     ],
     "path---forms": [
-      "path---forms-db1fbdccc7e507e31572.js",
-      "path---forms-db1fbdccc7e507e31572.js.map"
+      "path---forms-4641aba50582b63d685d.js",
+      "path---forms-4641aba50582b63d685d.js.map"
     ]
   }
 }
