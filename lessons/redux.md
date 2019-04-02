@@ -308,7 +308,7 @@ Download the one you're using, open up your app, and mess around the Redux tab. 
 
 Hopefully you're well informed on the boons and busts of introducing Redux. It's great, just be careful.
 
-## 🌳 3f9ac730d9d6068ddd513c765ce1a92ba31407b4 (branch redux)
+## 🌳 [d1262d96df5d223892c9d72dd5ac91e410c1e18b](https://github.com/btholt/complete-intro-to-react-v4/commit/d1262d96df5d223892c9d72dd5ac91e410c1e18b)
 
 [fsa]: https://github.com/redux-utilities/flux-standard-action
 [ro]: https://github.com/redux-observable/redux-observable
