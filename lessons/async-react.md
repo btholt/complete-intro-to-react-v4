@@ -77,7 +77,7 @@ The constructor is getting annoying. We can use something called class propertie
 Since we're going to take ahold of our own Babel configuration, we need to take over _all of it_. Parcel won't do it for us anymore. So install the following:
 
 ```bash
-npm install -D babel-eslint babel-core babel-preset-env babel-plugin-transform-class-properties
+npm install -D babel-eslint babel-core babel-preset-env babel-preset-react babel-plugin-transform-class-properties
 ```
 
 Now make a file called `.babelrc` with the following:
