@@ -143,6 +143,9 @@ So now let's make the two pages link to each other. Go to Pet.js.
 // at top
 import { Link } from "@reach/router";
 
+// set id from props
+const { name, animal, breed, media, location, id } = this.props;
+
 // change wrapping div
 <Link to={`/details/${id}`} className="pet">
   […]
