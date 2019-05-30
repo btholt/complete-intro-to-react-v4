@@ -10,7 +10,6 @@ We need to handle asynchronous loading of data gracefully. We can't just show th
 // replace Details.js
 import React from "react";
 import pf from "petfinder-client";
-import Carousel from "./Carousel";
 
 const petfinder = pf({
   key: process.env.API_KEY,
@@ -168,6 +167,12 @@ export default Carousel;
 Add the Carousel component to the Detail page.
 
 ```javascript
+// add to imports
+import Carousel from "./Carousel";
+
+// add media when destructuring state
+const { media, animal, breed, location, description } = this.state;
+
 // first component inside div.details
 <Carousel media={media} />
 ```
