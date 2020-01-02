@@ -1,3 +1,6 @@
+
+FYI this course has been updated. See the updated, [Complete Intro to React, v5](https://github.com/btholt/complete-intro-to-react-v5)
+
 # Welcome to the Complete Intro to React v4 and Intermediate React v1!
 
 [See the course website here][v4].
