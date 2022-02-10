@@ -1,9 +1,8 @@
+# Welcome to the [Complete Intro to React v4][course] and [Intermediate React][course-intermediate]!
 
-FYI this course has been updated. See the updated, [Complete Intro to React, v5](https://github.com/btholt/complete-intro-to-react-v5)
+To find the latest version of the React courses, head to the [React Learning Path][react-path] on Frontend Masters.
 
-# Welcome to the Complete Intro to React v4 and Intermediate React v1!
-
-[See the course website here][v4].
+- [See the course website here][v4].
 
 This course was written for and recorded by [Frontend Masters][fem] as the [Complete Intro to React v4][course] and [Intermediate React][course-intermediate] courses. The code here is licensed under the Apache 2.0 license and the [course notes][v4] are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license.
 
@@ -29,3 +28,4 @@ If you run into anything else, open an issue and we'll try to clarify or help.
 [fem]: https://frontendmasters.com/
 [course]: https://frontendmasters.com/courses/complete-react-v4/
 [course-intermediate]: https://frontendmasters.com/courses/intermediate-react/
+[react-path]: https://frontendmasters.com/learn/react/
